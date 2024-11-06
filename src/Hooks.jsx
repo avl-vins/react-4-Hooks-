@@ -44,9 +44,6 @@ export const Hooks = () => {
         <UseContext/>
 
         <UseReducer/>
-        <StSection>
-            lkñk
-        </StSection>
     </ StRoot>    
   )
 }

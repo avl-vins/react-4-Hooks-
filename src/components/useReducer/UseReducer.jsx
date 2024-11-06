@@ -96,7 +96,6 @@ export const UseReducer = () => {
                 || add && <FormUsuarios  mode={handleMode }  userAdd={handleAdd}  />
              } 
             
-            <StBoton>boton</StBoton>
         </StSection>
   )
 }
