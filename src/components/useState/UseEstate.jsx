@@ -15,7 +15,7 @@ export const UseEstate = () => {
             </StParrafo>
             <StBoton $color={changeColor?'#0070B8':'#008000'} onClick={()=>{
                 setActive(!active)
-                setChangeColor(true)
+                setChangeColor(!changeColor)
                 }} >{active?'Activo':'Inactivo'}</StBoton>
         </StSection>
   )

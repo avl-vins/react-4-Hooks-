@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { StBoton, StParrafo, StSection, StTitulo, UseEstate } from "./components"
+import { USeEffect } from "./components/useEffect/USeEffect"
 
 const StRoot = styled.section`
 height:100vh;
@@ -18,9 +19,9 @@ export const Hooks = () => {
         Existen diferentes tipos de hooks: useState, useEffect, useContext, useMemo, useReducer, custom Hooks.</StParrafo>
         
         <UseEstate/>
-        <StSection>
-            lkñk
-        </StSection>
+
+        <USeEffect/>
+        
         <StSection>
             lkñk
         </StSection>
