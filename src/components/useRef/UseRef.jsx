@@ -5,6 +5,8 @@ import styled from 'styled-components'
 const StContentInput = styled.div`
 display:flex;
 gap:.5rem;
+flex-wrap:wrap;
+justify-content:center;  
 input[type="text"]{
   padding:.5rem;
 }

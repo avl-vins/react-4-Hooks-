@@ -1,6 +1,8 @@
 
 export * from './useState/UseEstate'
+export* from './useEffect/USeEffect'
 export * from './useRef/UseRef'
+export * from './useMemo/UseMemo'
 
 import styled from "styled-components"
 

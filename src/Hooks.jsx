@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import { StBoton, StParrafo, StSection, StTitulo, UseEstate, UseRef } from "./components"
-import { USeEffect } from "./components/useEffect/USeEffect"
+import { StBoton, StParrafo, StSection, StTitulo, USeEffect, UseEstate, UseMemo, UseRef } from "./components"
+
 
 const StRoot = styled.section`
 height:100vh;
@@ -20,12 +20,11 @@ export const Hooks = () => {
         
         <UseEstate/>
 
-        <USeEffect/>
+        {/* <USeEffect/> */}
         
         <UseRef/>
-        <StSection>
-            lkñk
-        </StSection>
+        
+        <UseMemo/>
         <StSection>
             lkñk
         </StSection>
