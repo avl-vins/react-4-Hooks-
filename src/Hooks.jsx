@@ -1,18 +1,33 @@
 import styled from "styled-components"
-import { StBoton, StParrafo, StSection, StTitulo, USeEffect, UseEstate, UseMemo, UseRef } from "./components"
+import { StBoton, StParrafo, StSection, StTitulo, ThemeContext, UseContext, USeEffect, UseEstate, UseMemo, UseRef } from "./components"
+import { useContext, useEffect } from "react"
+
+
 
 
 const StRoot = styled.section`
-height:100vh;
+min-height:100vh;
 padding: 2rem;
 display:flex;
 flex-direction:column;
 align-items:center;
+background-color: ${ ({$bg})=>$bg };
+color:${({$color})=>$color};
+
 ` 
 
 export const Hooks = () => {
+  const {theme}  = useContext(ThemeContext)
+  const { bg , text }=theme
+ 
+  
+  
+  useEffect(()=>{
+
+  },[theme])
+  
   return (
-    < StRoot>
+    < StRoot $bg={bg} $color={text} > 
         <h1>Hooks</h1>
         <StParrafo>
         Los hooks en React son funciones que permiten manipular el estado y el ciclo de vida de los componentes funcionales. 
@@ -20,11 +35,13 @@ export const Hooks = () => {
         
         <UseEstate/>
 
-        {/* <USeEffect/> */}
+        <USeEffect/>
         
         <UseRef/>
         
         <UseMemo/>
+
+        <UseContext/>
         <StSection>
             lkñk
         </StSection>

@@ -3,6 +3,9 @@ export * from './useState/UseEstate'
 export* from './useEffect/USeEffect'
 export * from './useRef/UseRef'
 export * from './useMemo/UseMemo'
+export * from './useContext/UseContext'
+export * from './useContext/ThemeProvider'
+export * from './useContext/ThemeContext'
 
 import styled from "styled-components"
 
