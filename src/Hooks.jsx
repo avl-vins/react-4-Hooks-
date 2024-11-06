@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { StBoton, StParrafo, StSection, StTitulo, UseEstate } from "./components"
+import { StBoton, StParrafo, StSection, StTitulo, UseEstate, UseRef } from "./components"
 import { USeEffect } from "./components/useEffect/USeEffect"
 
 const StRoot = styled.section`
@@ -22,9 +22,7 @@ export const Hooks = () => {
 
         <USeEffect/>
         
-        <StSection>
-            lkñk
-        </StSection>
+        <UseRef/>
         <StSection>
             lkñk
         </StSection>

@@ -8,7 +8,7 @@ export const UseEstate = () => {
     <StSection>
             <StTitulo>useState</StTitulo>
             <StParrafo>EL hook useState permite agregar un estado local a los componentes funcionales.
-                Retorna el valor actual del estado y una funcion que actualiza el estado.
+                Retorna el valor actual del estado y una funcion que actualiza el estado. UseState causa una renderizacion para cambiar el estado.
             </StParrafo>
             <StParrafo>
                 El siguiente ejemplo nos muestra el cambio de estado del texto y el color al hacer click.
