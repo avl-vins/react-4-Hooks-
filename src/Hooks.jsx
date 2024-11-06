@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { StBoton, StParrafo, StSection, StTitulo, ThemeContext, UseContext, USeEffect, UseEstate, UseMemo, UseRef } from "./components"
+import { StBoton, StParrafo, StSection, StTitulo, ThemeContext, UseContext, USeEffect, UseEstate, UseMemo, UseReducer, UseRef } from "./components"
 import { useContext, useEffect } from "react"
 
 
@@ -42,6 +42,8 @@ export const Hooks = () => {
         <UseMemo/>
 
         <UseContext/>
+
+        <UseReducer/>
         <StSection>
             lkñk
         </StSection>

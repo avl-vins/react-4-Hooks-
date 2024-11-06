@@ -6,6 +6,7 @@ export * from './useMemo/UseMemo'
 export * from './useContext/UseContext'
 export * from './useContext/ThemeProvider'
 export * from './useContext/ThemeContext'
+export * from './useReducer/UseReducer'
 
 import styled from "styled-components"
 
@@ -33,7 +34,10 @@ export const StBoton = styled.button`
     border:1px solid #c9c9c9;
     outline:none;
     background-color:${({$color})=>$color};
-    color:#fff;   
+    color:${({$color})=>$color?"white":$color};
+    border-radius:.3rem;
+    font-size:.875rem;
+    font-weight:600;   
     &:hover{
         cursor:pointer;
         scale:.98;
@@ -42,4 +46,10 @@ export const StBoton = styled.button`
         scale:1;
     }    
      
+`
+export const StInput = styled.input`
+    padding:.5rem;
+    outline:none;
+    border:2px solid #c9c9c9;
+    border-radius:.3rem
 `
